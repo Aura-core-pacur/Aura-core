@@ -1,0 +1,9 @@
+# Requisitos para compilar Aura Core en Linux (Debian/Ubuntu)
+build-essential (gcc, g++, make)
+Python 3.12
+openjdk-17-jdk
+Rust y Cargo
+Go 1.21+
+CMake 3.20+
+pkg-config
+libavcodec-dev libavformat-dev libavutil-dev libswscale-dev (FFmpeg)

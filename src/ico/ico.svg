@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Aura Core icon">
+  <rect width="512" height="512" fill="#000000"/>
+  <path d="M70 430C125 388 204 340 304 332C380 326 420 293 443 250L344 250L245 430H70Z" fill="#ff6a00"/>
+  <path d="M332 332C392 326 431 281 444 234L454 164L370 164C365 213 343 261 298 298L332 332Z" fill="#ffb100"/>
+  <path d="M200 430L310 330C369 286 402 240 410 172H330C330 230 286 274 212 300L200 430Z" fill="#7bdc3b"/>
+  <path d="M140 430C201 364 251 309 289 258C317 219 344 175 343 112H260C258 173 221 222 170 279L140 430Z" fill="#1bd9d4"/>
+  <path d="M70 430L172 275C214 232 240 193 248 136H155C143 207 113 278 70 430Z" fill="#1a8cff"/>
+  <path d="M240 79L354 79L424 198L327 198L240 79Z" fill="#0d2f87" fill-opacity="0.95"/>
+  <path d="M162 90L245 90L297 228L280 228L162 90Z" fill="#0b1b42" fill-opacity="0.9"/>
+  <path d="M190 90L296 90L243 210L190 90Z" fill="#0d2f87" fill-opacity="0.94"/>
+</svg>

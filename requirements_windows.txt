@@ -1,0 +1,8 @@
+# Requisitos para compilar Aura Core en Windows 11
+w64devkit (GCC, G++, Make, pkg-config)
+Python 3.12 (necesario para módulos de scripting y utilidades)
+JDK (Java Development Kit) 17 o superior
+Rust (rustc y cargo) configurado con: rustup target add x86_64-pc-windows-gnu
+Go 1.21+
+CMake 3.20+
+FFmpeg dev packages (libavcodec, libavformat, etc. compilados para MinGW/w64)

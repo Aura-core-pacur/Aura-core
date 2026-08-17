@@ -1,0 +1,31 @@
+<!--
+ * Aura Core
+ * Copyright (C) 2026 Aura-core-pacur
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ -->
+
+<dow id="main_window" title="Aura Core - Test Dow" width="1280" height="720" theme="system">
+    <container layout="vertical" padding="10" background="#121212">
+        <navbar height="50" layout="horizontal" align="center">
+            <button id="btn_back" icon="arrow_left" action="navigate_back" />
+            <input id="url_bar" type="text" placeholder="aura://start" flex="1" text_color="#FFFFFF"/>
+            <button id="btn_download" icon="download" action="aura_net_download_file" data-url="target_url" />
+        </navbar>
+
+        <render_surface id="web_view" flex="1">
+            <media_player id="test_video" source="test_media.mp4" autoplay="true" loop="true" />
+        </render_surface>
+    </container>
+</dow>

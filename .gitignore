@@ -1,0 +1,33 @@
+# Compilación y Build generales
+build/
+bin/
+obj/
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+*.o
+
+# Rust / Cargo
+src/core/target/
+**/*.rs.bk
+
+# Java / Kotlin
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Go
+*.test
+*.prof
+
+# OS y Editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
